@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require "./lib/rdbrowser"
+
+command = ARGV.shift
+db = ARGV.shift
+
+if command == "help"
+  puts Rdbrowser.methods - Object.methods
+else
+  Rdbrowser.send(command.to_sym, db)
+end
