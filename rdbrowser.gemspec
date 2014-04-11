@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Rdbrowser::VERSION
   spec.authors       = ["Oren Mazor"]
   spec.email         = ["oren.mazor@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Manually parse an RDB file linearly without loading the full thing.}
+  spec.description   = %q{Manually parse an RDB file linearly without loading the full thing.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,5 +20,4 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.4"
   spec.add_development_dependency "rake"
-  spec.add_dependency "redis-rdb"
 end
