@@ -1,29 +1,19 @@
-# Rdbrowser
+# RdBrowser
 
-TODO: Write a gem description
+I needed to get information out of large rdb files without loading them into redis-server. This WIP is what came of that. 
 
-## Installation
+# License
 
-Add this line to your application's Gemfile:
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                    Version 2, December 2004
 
-    gem 'rdbrowser'
+ Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
 
-And then execute:
+ Everyone is permitted to copy and distribute verbatim or modified
+ copies of this license document, and changing it is allowed as long
+ as the name is changed.
 
-    $ bundle
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 
-Or install it yourself as:
-
-    $ gem install rdbrowser
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+  0. You just DO WHAT THE FUCK YOU WANT TO.
